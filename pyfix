@@ -1,0 +1,11 @@
+#!/bin/bash
+clear
+echo "This will replace arch linux python3 to python2, keeping python3 and python2 but having python2 as default"
+read -p "press [ENTER] to continue"
+echo "[!] Changing directory to /usr/bin"
+cd /usr/bin
+echo "[!] Replacing python3 to python2"
+ln -sf python2 python
+echo "[*] Done!"
+echo "[+] Current version:"
+python --version
