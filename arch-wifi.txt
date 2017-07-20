@@ -1,0 +1,2 @@
+sudo iw dev [interface] scan | grep SSID
+nmcli d wifi connect [network-name] password [password] iface [interface]
