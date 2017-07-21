@@ -8,13 +8,13 @@ def main():
         if sys.argv[1] == 'Fallback':
             return fallback()
         if sys.argv[1] == 'Intel':
-            return intel
+            return intel()
         if sys.argv[1] == 'Nvidia':
-            return nvidia
+            return nvidia()
         if sys.argv[1] == 'Radeon':
-            return radeon
+            return radeon()
         if sys.argv[1] == 'Mesa':
-            return mesa
+            return mesa()
     else:
            return usage()
 
