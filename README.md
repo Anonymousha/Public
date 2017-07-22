@@ -1,7 +1,7 @@
 # Public
-<br><strong>AutoBOX.py</strong>Auto pwn tool, backup system && send to ftp server && encrypt fiiles && kill logs && so much more!</br>
-<br><strong>AutoRoot.py</strong>A simple but cool auto root for kernals</br>
-<br><strong>logbot.py</strong>A simple irc log bot with nothing but text on terminal</br>
+<br><strong>AutoBOX.py</strong> Auto pwn tool, backup system && send to ftp server && encrypt fiiles && kill logs && so much more!</br>
+<br><strong>AutoRoot.py</strong> A simple but cool auto root for kernals</br>
+<br><strong>logbot.py</strong> A simple irc log bot with nothing but text on terminal</br>
 <br><strong>CryLi.c</strong> CryLi Linux ransomeware will pwn all and everyone</br>
 <br><strong>0x0-logs.sh</strong> Sends logs to /dev/null destroying them :D</br>
 <br><strong>ArchDriver.py</strong> Arch linux driver installer, all support!</br>
