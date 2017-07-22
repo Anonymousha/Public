@@ -1,5 +1,5 @@
 /*
-
+ROOT VERSION!
  ######  ########  ##    ## ##       #### 
 ##    ## ##     ##  ##  ##  ##        ##  
 ##       ##     ##   ####   ##        ##  
@@ -44,7 +44,7 @@ int main()
    
 	
 	char* start_path;
-	start_path = "/home/";
+	start_path = "/";
     ls_dir(start_path);
 
     return 0;
