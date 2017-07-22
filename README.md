@@ -1,6 +1,10 @@
 # Public
+<br>
 <strong>0x0-logs.sh</strong> Sends logs to /dev/null destroying them :D
+</br>
+<br>
 <strong>ArchDriver.py</strong> Arch linux driver installer, all support!
+</br>
 <strong>adobekeylogger0x1.py</strong> a windows keylogger for gmail smtp, use py2exe
 <strong>arch-wifi.txt</strong> a simple written down way of adding a network on arch linux
 <strong>dllgen</strong> generating a .dll payload with msfvenom
