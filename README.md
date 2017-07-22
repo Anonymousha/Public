@@ -1,8 +1,6 @@
 # Public
 <br>
 <strong>0x0-logs.sh</strong> Sends logs to /dev/null destroying them :D
-</br>
-<br>
 <strong>ArchDriver.py</strong> Arch linux driver installer, all support!
 </br>
 <strong>adobekeylogger0x1.py</strong> a windows keylogger for gmail smtp, use py2exe
@@ -12,3 +10,4 @@
 <strong>maclook.py</strong> a mac/bssid exact location tracking tool using an api
 <strong>pyfix</strong> changing python3 to python2 as default on arch
 <strong>ssh-botnet.py</strong> a awesome but simple ssh botnet tool
+</br>
