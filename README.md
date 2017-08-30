@@ -1,4 +1,7 @@
 # Public
+<br><strong>phonegen.py</strong> Generate a phone number tool</br>
+<br><strong>server-manager.sh</strong> secure your server using iptables that can reflect ddos attacks and more</br>
+<br><strong>compst.py</strong> Image & Text sharing command line tool</br>
 <br><strong>AutoBOX.py</strong> Auto pwn tool, backup system && send to ftp server && encrypt fiiles && kill logs && so much more!</br>
 <br><strong>AutoRoot.py</strong> A simple but cool auto root for kernals</br>
 <br><strong>logbot.py</strong> A simple irc log bot with nothing but text on terminal</br>
