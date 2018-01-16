@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#When you get caught in apache logs etc.
+
 import requests
 import sys
 
@@ -10,12 +10,13 @@ headers = {
 }
 
 def main():
-	if len(sys.argv) == 3:
-		target = sys.argv[1]
-		amount = sys.argv[2]
-		for x in range(int(amount)):
-			r = requests.post(target, headers=headers)
-			print "[*] Sending %s requests" % (x)
-	else:
-		print "./%s <target> <amount>" % (sys.argv[0])
+        if len(sys.argv) == 3:
+                target = sys.argv[1]
+                amount = sys.argv[2]
+                for x in range(int(amount)):
+                        r = requests.post(target, headers=headers)
+                        xz = x + 1
+                        print "[*] Sending %s requests" % (xz)
+        else:
+                print "./%s <target> <amount>" % (sys.argv[0])
 main()
