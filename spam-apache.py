@@ -16,6 +16,7 @@ def main():
                 for x in range(int(amount)):
                         r = requests.post(target, headers=headers)
                         xz = x + 1
+                        os.system('clear')
                         print "[*] Sending %s requests" % (xz)
         else:
                 print "./%s <target> <amount>" % (sys.argv[0])
