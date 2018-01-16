@@ -1,5 +1,5 @@
 #!/usr/bin/python
-
+#When you get caught in apache logs etc.
 import requests
 import sys
 
